@@ -1,0 +1,664 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
+
+    .navbar {
+        height: 12%;
+        display: flex;
+    }
+
+    .navbar img {
+        width: 80px;
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    nav {
+        flex: 1;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        margin-top: 10px;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+    nav ul li button {
+        width: 100px;
+        height: 38px;
+        background-color:green;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    a {
+        font-weight: 100;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        background-color: white;
+        color: greenyellow;
+    }
+
+    a:hover {
+        background-color:green;
+        color: white;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .colored {
+        background-color: orange;
+        color: white;
+        border-color: orange;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 50px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .content {
+        width: 97%;
+        height: 400px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: greenyellow;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .content img {
+        margin-top: 50px;
+        margin-right: 35px;
+        width: 400px;
+        height: 300px;
+        box-shadow: -1px 0 10px 0 rgb(24, 23, 23);
+    }
+
+    .text {
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .text h1 {
+        color: green;
+        font-weight: 400;
+        font-size: 85px;
+    }
+
+    .text p {
+        color: white;
+        font-weight: 100;
+        font-size: 30pxs;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .text button {
+        width: 170px;
+        height: 45px;
+        color:green;
+        background-color: white;
+        border-radius: 10px;
+        border-color: orange;
+        margin-left: 15px;
+        margin-top: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .text button:hover {
+        background-color: green;
+        color: white;
+
+    }
+
+    .container1 {
+        background-color: greenyellow;
+        width: 97%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .container1 img {
+        margin-top: 50px;
+        margin-left: 200px;
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .form {
+        margin-right: 200px;
+        margin-top: 100px;
+    }
+
+    .form input {
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+        border-color: black;
+        border-radius: 3px;
+    }
+
+    .form button {
+        width: 250px;
+        height: 35px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        border-color: orange;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .form button:hover {
+        background-color: rgb(15, 150, 55);
+        color: white;
+    }
+
+    .form h6 {
+        margin-top: 10px;
+        margin-left: 90px;
+        color: white;
+    }
+
+    img {
+        width: 50px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    hr {
+        border-top: 1px solid gray;
+        margin-top: 100px;
+    }
+
+    .navbar3 {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 5px;
+        border-radius: 2px;
+        background-color: rgb(250, 244, 244);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    li {
+        color: rgb(34, 33, 33);
+        font-weight: 100;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: orangered;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        background-color: white;
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .organicproduct1 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .organicproduct1 img {
+        margin-top: 50px;
+        width: 230px;
+        height: 150px;
+    }
+
+    .organicproduct1 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicproduct1 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicproduct1 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicproduct2 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicproduct2 img {
+        margin-top: 50px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .organicproduct2 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicproduct2 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicproduct2 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicproduct3 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicproduct3 img {
+        margin-top: 50px;
+        width: 230px;
+        height: 150px;
+    }
+
+    .organicproduct3 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicproduct3 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicproduct3 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicproduct4 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicproduct4 img {
+        margin-left: 15px;
+        margin-top: 50px;
+        padding: 10px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .organicproduct4 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicproduct4 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicproduct4 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .container3 {
+        display: flex;
+        background-color: white;
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .organicseeds1 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .organicseeds1 img {
+        margin-top: 50px;
+        width: 230px;
+        height: 150px;
+    }
+
+    .organicseeds1 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicseeds1 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicseeds1 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicseeds2{
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicseeds2 img {
+        margin-top: 50px;
+        width: 230px;
+        height: 150px;
+    }
+
+    .organicseeds2 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicseeds2 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicseeds2 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicseeds3 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicseeds3 img {
+        margin-top: 50px;
+        width: 230px;
+        height: 150px;
+    }
+
+    .organicseeds3 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicseeds3 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicseeds3 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .organicseeds4 {
+        height: 330px;
+        border: 1px solid green;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .organicseeds4 img {
+        margin-top: 40px;
+        margin-left: 5px;
+        padding: 10px;
+        width: 270px;
+        height: 175px;
+    }
+
+    .organicseeds4 p {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-style: bold;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+    }
+
+    .organicseeds4 i {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .organicseeds4 button {
+        width: 200px;
+        height: 25px;
+        margin-top: 15px;
+        margin-left: 40px;
+        padding: 5px;
+        border-radius: 1px;
+        border: none;
+        background-color: green;
+        color: white;
+    }
+
+    .img-icon {
+        float: right;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+
+    .img-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    hr {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 80px;
+    }
+
+    .form2 {
+        background-color: aliceblue;
+        width: 97%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .col1 {
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    label {
+        color: black;
+        font-weight: 100;
+        font-style: bold;
+    }
+
+    input {
+        color: gray;
+        height: 25px;
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid gray;
+    }
+
+    textarea {
+        color: gray;
+        width: 250px;
+        height: 70px;
+    }
+
+    .radio button {
+        margin-right: 50px;
+    }
+
+    .vl {
+        border: 1px solid green;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 2px;
+    }
+
+    .col2 {
+        margin-left: 50px;
+        margin-top: 75px;
+    }
+
+    .col2 button {
+        font-weight: 100;
+        font-style: bold;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        padding: 2px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}
